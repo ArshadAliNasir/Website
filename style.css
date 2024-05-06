@@ -23,7 +23,7 @@
   max-width: 100%;
   width: 100%;
   background-color: #cb8696;
-  padding: 5px;
+  /* padding: 5px; */
   /* margin: auto; */
 }
 
@@ -38,10 +38,10 @@
   color: rgb(0, 0, 0);
   font-family: "Avenir Next", sans-serif;
 }
-.navdiv li a:hover {
+.navdiv > li a:hover {
   color: black;
   /* background-color: aqua; */
-  /* padding:25px 0px; */
+  /* padding:255px 0px; */
   display: inline-block;
 }
 
@@ -73,7 +73,7 @@ ul li ul.dropdown li {
 
 ul li ul.dropdown {
  
-  top: 100px;
+  top: 95px;
   background-color: #fff;
   position: absolute;
   z-index: 999;
@@ -155,7 +155,7 @@ ul li ul.dropdown-start li {
 }
 ul li ul.dropdown-start {
   right: 17%;
-  top: 100px;
+  top: 95px;
   background-color: #fff;
   position: absolute;
   z-index: 999;
@@ -206,6 +206,7 @@ ul li:hover ul.dropdown-start {
 
                           /* Top Picks */
                           .down-icon{
+                            font-size: 15px;
                             color: #fff;
                             cursor: pointer;
                           }
@@ -234,7 +235,7 @@ ul li:hover ul.dropdown-start {
                             min-width: 110px;
                             /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
                             z-index: 999;
-                            top: 43px;
+                            top: 40px;
                             padding-left: 0px;
                         }
                         .dropdown-over-one a {
@@ -308,7 +309,7 @@ ul li ul.dropdown-one li {
 }
 ul li ul.dropdown-one {
   width: 525px;
-  top: 100px;
+  top: 95px;
   right: 30%;
   background-color: #fff;
   position: absolute;
@@ -325,6 +326,7 @@ ul li:hover ul.dropdown-one {
 }
                               /* Client dropdown */
                               .down-icon{
+                                font-size: 15px;
                                 color: #fff;
                                 cursor: pointer;
                               }
@@ -353,7 +355,7 @@ ul li:hover ul.dropdown-one {
                                 width: 110px;
                                 /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
                                 z-index: 999;
-                                top: 53px;
+                                top: 65px;
                                 left: 20px;
                                 padding-left: 0px;
                             }
@@ -429,7 +431,7 @@ ul li ul.dropdown-two li {
 ul li ul.dropdown-two {
   width: 60%;
   height: 275px;
-  top: 100px;
+  top: 95px;
   /* left:10px; */
   right: 375px;
   background-color: #fff;
@@ -627,7 +629,7 @@ max-width: 190px;
   /* padding-right: 17.5px;
     padding-left: 17.5px; */
   letter-spacing: 1px;
-  padding: 5px;
+  padding: 20px 5px;
   font-size: 14px;
   text-decoration: none;
   color: #fff;
