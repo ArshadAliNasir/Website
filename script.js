@@ -52,9 +52,6 @@ $(document).ready(function(){
   // $(".plus").hide()
   });
 
-
-
-
   $(".fa-solid").click(function(){
   //   var list =$(this).siblings(".plus");
   // list.slideToggle()
