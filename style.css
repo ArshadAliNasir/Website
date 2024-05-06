@@ -205,6 +205,17 @@ ul li:hover ul.dropdown-start {
 }
 
                           /* Top Picks */
+                          ul.dropdown-over-one li{
+                            /* float: left;
+                            padding-left: 7px; */
+                            display: flex;
+                          }
+                          ul.dropdown-over-one li a {
+                            padding: 12px;
+                        }
+                        ul.dropdown-over-one li a:hover {
+                          color: blue;
+                      }
                           .down-icon{
                             font-size: 15px;
                             color: #fff;
@@ -214,9 +225,9 @@ ul li:hover ul.dropdown-start {
                             color: #000;
                           }
                           .fa-caret-right{
-                            font-size: 15px;
                             float: right;
-                            margin-left:10px ;
+                            margin-left:20px ;
+                            font-size: 15px;
                             /* padding-top: 10px; */
                           }
                           .fa-caret-right:hover{
@@ -229,19 +240,21 @@ ul li:hover ul.dropdown-start {
                             /* height: 100%; */
                         }
                         .dropdown-over-one {
+                          float: left;
                             display: none;
                             position: absolute;
                             background-color: #cb8696;
-                            min-width: 110px;
+                            width: 135px;
                             /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
                             z-index: 999;
-                            top: 40px;
+                            top: 38px;
+                            padding: 10px;
                             padding-left: 0px;
                         }
                         .dropdown-over-one a {
                           /* padding-top: 10px; */
-                          margin-top: 7px;
-                          margin-bottom: 7px;
+                          /* margin-top: 7px;
+                          margin-bottom: 7px; */
                             color: black;
                             padding: 12px 6px;
                             text-decoration: none;
@@ -265,11 +278,11 @@ ul li:hover ul.dropdown-start {
   display: none;
   position: absolute;
   background-color: #cb8696;
-  width: 110px;
+  width: 135px;
   /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); */
   /* z-index: 999; */
   top: 0px;
-  left: 105px;
+  left: 125px;
   padding-left: 0px;
 }
 .dropdown-over-one-inside a {
@@ -280,7 +293,7 @@ ul li:hover ul.dropdown-start {
   margin-top: 7px;
   margin-bottom: 7px;
     color: black;
-    padding: 12px 6px;
+    /* padding: 12px 6px; */
 }
 
 .dropdown-over-one-inside a:hover {
@@ -325,6 +338,12 @@ ul li:hover ul.dropdown-one {
   flex-direction: row;
 }
                               /* Client dropdown */
+                              ul.dropdown-over-last-one li a {
+                                padding: 5px;
+                            }
+                            ul.dropdown-over-last-one li a:hover {
+                              color: blue;
+                          }
                               .down-icon{
                                 font-size: 15px;
                                 color: #fff;
@@ -335,7 +354,7 @@ ul li:hover ul.dropdown-one {
                               }
                               .fa-caret-right{
                                 float: right;
-                                margin-left:10px ;
+                                margin-left:20px ;
                                 font-size: 15px;
                                 /* padding-top: 10px; */
                               }
@@ -352,7 +371,7 @@ ul li:hover ul.dropdown-one {
                                 display: none;
                                 position: absolute;
                                 background-color: #cb8696;
-                                width: 110px;
+                                width: 135px;
                                 /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
                                 z-index: 999;
                                 top: 65px;
